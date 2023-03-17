@@ -12,8 +12,8 @@ function App() {
 			<Routes>
 				<Route path="ReactPictureWeb/" element={<Layout />}>
 					<Route index element={<Homepage />}></Route>
-					<Route path="ReactPictureWeb/about" element={<About />}></Route>
-					<Route path="ReactPictureWeb/*" element={<Page404 />}></Route>
+					<Route path="about" element={<About />}></Route>
+					<Route path="*" element={<Page404 />}></Route>
 				</Route>
 			</Routes>
 		</BrowserRouter>

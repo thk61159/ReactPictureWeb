@@ -8,16 +8,15 @@ const Layout = () => {
 			<nav>
 				<ul>
 					<li>
-            <Link to="/">首頁</Link>
+						<Link to="/ReactPictureWeb">首頁</Link>
 					</li>
 					<li>
-						<Link to="/about">關於這個網站</Link>
+						<Link to="/ReactPictureWeb/about">關於這個網站</Link>
 					</li>
 				</ul>
-      </nav>
-      <Outlet />
-      <Footer />
-
+			</nav>
+			<Outlet />
+			<Footer />
 		</div>
 	)
 }
